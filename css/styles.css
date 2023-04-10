@@ -290,6 +290,33 @@ body{
 }
 
 
+.btn-form-enviar{
+    color: #ffffff;
+    background-color: #06911b ;
+    border: none;
+}
+.btn-form-enviar:hover{
+    background-color: #1a6a04 ;
+
+}
+.btn-form-enviar:focus{
+    background-color: #034f04 ;
+
+}
+.btn-form-limpiar{
+    color: #ffff;
+    background-color: #07419e ;
+    border: none;
+}
+.btn-form-limpiar:hover{
+    background-color: #04378a ;
+
+}
+.btn-form-limpiar:focus{
+    background-color: #022d72 ;
+
+}
+
 /* ----- FOOTER ----- */
 
 .footer{
