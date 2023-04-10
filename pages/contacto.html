@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrybrown Restaurant</title>
+    <link rel="shortcut icon" href="../multimedia/logo-favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,300,0,0" />
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- Barra de Navegación -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <!-- icono -->
+                <a class="navbar-brand navbar-left" href="../index.html">
+                    <i class="bi bi-flower1"></i>
+                    <span class="">Marrybrown</span>
+                </a>
+    
+                <!-- boton del menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- elementos del menu colapsable -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link px-md-3" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-md-3" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-md-3" href="menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-md-3" href="galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-md-3 active" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Redes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="https://twitter.com/MarrybrownMY" target="_blank">
+                                        <i class="bi bi-twitter"></i>
+                                        <small class="ms-2">Twitter</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.instagram.com/marrybrownmy/" target="_blank">
+                                        <i class="bi bi-instagram"></i>
+                                        <small class="ms-2">Instagram</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.youtube.com/user/MarrybrownTV" target="_blank">
+                                        <i class="bi bi-youtube"></i>
+                                        <small class="ms-2">YouTube</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.facebook.com/MarrybrownMalaysia/" target="_blank">
+                                        <i class="bi bi-facebook"></i>
+                                        <small class="ms-2">Facebook</small>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Seccion Contacto -->
+        <section class="seccion-contacto">
+            <div class="container py-5">
+                <div class="row p-3">
+                    <div class="col-lg-4 text-center">
+                        <h2>Contáctanos</h2>
+                        <img src="../multimedia/contacto/personas-web.svg" alt="Personas en la web">
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="input-group pt-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <i class="bi bi-person-circle"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Nombres y apellidos" aria-label="Nombre" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group pt-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <i class="bi bi-envelope-at-fill"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="input-group pt-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <i class="bi bi-telephone-fill"></i>
+                                    </span>
+                                    <input type="tel" class="form-control" placeholder="Celular" aria-label="Celular" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group pt-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <i class="bi bi-folder-symlink-fill"></i>
+                                    </span>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>¿Qué desea hacer?</option>
+                                        <option value="1">Pedido</option>
+                                        <option value="2">Reclamo</option>
+                                        <option value="3">Opinión</option>
+                                        <option value="3">Otro</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 pt-3">
+                                <div class="mb-3">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Escriba su mensaje aquí"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container py-5 p-3">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h5>Ubícanos</h5>
+                        <ul>
+                            <li>
+                                <i class="bi bi-telephone-fill"></i>
+                                <small class="ms-2">5707-5846</small>
+                            </li>
+                            <li>
+                                <i class="bi bi-envelope-at-fill"></i>
+                                <small class="ms-2">marryb@gmail.com</small>
+                            </li>
+                            <li>
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <small class="ms-2">1718 Park Boulevard</small>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <hr class="d-sm-none">
+
+                    <div class="col-md-3 col-sm-6">
+                        <h5>Navegación</h5>
+    
+                        <ul>
+                            <li>
+                                <a href="../index.html">
+                                    <small>Inicio</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nosotros.html">
+                                    <small>Nosotros</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="menu.html">
+                                    <small>Menú</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="galeria.html">
+                                    <small>Galería</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contacto.html">
+                                    <small>Contacto</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <hr class="d-sm-none">
+
+                    <div class="col-md-3 col-sm-6">
+                        <h5>Redes Sociales</h5>
+                        <div class="">
+                            <ul>
+                                <li>
+                                    <a class="" href="https://twitter.com/MarrybrownMY" target="_blank">
+                                        <i class="bi bi-twitter"></i>
+                                        <small class="ms-2">Twitter</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="" href="https://www.instagram.com/marrybrownmy/" target="_blank">
+                                        <i class="bi bi-instagram"></i>
+                                        <small class="ms-2">Instagram</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="" href="https://www.youtube.com/user/MarrybrownTV" target="_blank">
+                                        <i class="bi bi-youtube"></i>
+                                        <small class="ms-2">YouTube</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="" href="https://www.facebook.com/MarrybrownMalaysia/" target="_blank">
+                                        <i class="bi bi-facebook"></i>
+                                        <small class="ms-2">Facebook</small>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr class="d-sm-none">
+
+                    <div class="col-md-3 col-sm-6">
+                        <h5>Últimas Noticias</h5>
+                        <form>
+                            <div class="input-group mb-3 pt-3">
+                                <span class="input-group-text" id="basic-addon1">
+                                    <i class="bi bi-person-circle"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">
+                                    <i class="bi bi-envelope-at"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
+                            </div>
+                        </form>
+
+                        <button type="submit" class="btn btn-success">Suscribirse</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
