@@ -1,0 +1,83 @@
+
+/* ----- INICIO ----- */
+
+/* --- Sección Bienvenida ---*/
+
+.bienvenida{
+    .bienvenida-img{
+        max-width: 100%;
+    }
+    .bienvenida__info{
+        color: #ffffffc2;
+    }
+    .bienvenida__botones__btn{
+        &-menu{
+            color: #ffff;
+            background-color: #a70242;
+            border: none;
+            &:hover{
+                background-color: #8c0c3d;
+            }
+            &:focus{
+                background-color: #660a2d;
+            }
+        }
+        &-contacto{
+            color: #ffff;
+            background-color: #328543;
+            border: none;
+            &:hover{
+                background-color: #216f09;
+            }
+            &:focus{
+                background-color: #014e18;
+            }
+        }
+    }
+}
+
+/* --- Sección Especialidades ---*/
+
+.seccion-especialidad{
+    background-color: #702d2d;
+    .card{
+        background-color: #e2dada;
+        color: #151313c2;
+        h5{
+            color: #330106f1;
+        }
+        .card-img-top{
+            height: 250px;
+        } 
+    }
+
+}
+
+
+/* --- Sección Opiniones ---*/
+
+.card-opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    padding: 20px 20px;
+    gap: 10px;
+    background-color: #2b3036;
+    color: #ffffffc2;
+    img{
+        border-radius: 50%;
+        border: 2px solid #00d3c5;
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+    }
+    h4{
+        color: #00d3c5;
+    }
+    .bi{
+        color: #ffc832;
+    }
+} 
+

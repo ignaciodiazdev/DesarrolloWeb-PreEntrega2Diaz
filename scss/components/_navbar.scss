@@ -1,0 +1,30 @@
+
+/* ----- NAVBAR ----- */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.navbar-left{
+    color: #00d3c5;
+    font-weight: bold;
+}
+
+.nav-link{
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:hover{
+    color: #00d3c5;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #00d3c5;
+}
+
+.dropdown-menu{
+    background: #2b3036;
+}
+.dropdown-item{
+    color: #ffffff8c;
+}

@@ -1,0 +1,63 @@
+
+/* ----- CONTACTO ----- */
+
+.seccion-contacto h2{
+    color: #ffc233;
+}
+.seccion-contacto img{
+    max-width: 100%;
+}
+.seccion-contacto .input-group-text{
+    border: 1px solid #00d3c56e;
+    background-color: #0be0d2eb;
+    color: #000000;
+}
+
+.seccion-contacto input,
+.seccion-contacto select,
+.seccion-contacto textarea{
+    color: #c6c6c6;
+    background-color: #28282b;
+    border: 1px solid #00d3c56e;
+}
+.seccion-contacto input:focus,
+.seccion-contacto select:focus,
+.seccion-contacto textarea:focus{
+    color: #c6c6c6;
+    background-color: #2a2929;
+    box-shadow: 0 0 0 0.1rem #00d3c5a0;
+}
+.seccion-contacto .form-control::placeholder{
+    color: #c6c6c669;
+}
+.seccion-contacto textarea{
+    resize: none;
+}
+
+
+.btn-form-enviar{
+    color: #ffffff;
+    background-color: #06911b ;
+    border: none;
+}
+.btn-form-enviar:hover{
+    background-color: #1a6a04 ;
+
+}
+.btn-form-enviar:focus{
+    background-color: #034f04 ;
+
+}
+.btn-form-limpiar{
+    color: #ffff;
+    background-color: #07419e ;
+    border: none;
+}
+.btn-form-limpiar:hover{
+    background-color: #04378a ;
+
+}
+.btn-form-limpiar:focus{
+    background-color: #022d72 ;
+
+}

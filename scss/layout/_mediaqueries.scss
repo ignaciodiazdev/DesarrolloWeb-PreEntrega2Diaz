@@ -1,0 +1,125 @@
+
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (min-width: 380px) {
+    .card-img-top {
+        height: 350px;
+    }
+}
+@media (min-width: 768px) {
+
+    .nosotros{
+        &__img{
+            max-width: 80%;
+        }
+    }
+
+    .card-img-top {
+        height: 250px;
+    }
+
+    .galeria{
+        &__imagenes{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-auto-rows: 250px;
+            grid-template-areas: 
+            'img01 img02'
+            'img04 img04 '
+            'img03 img06'
+            'img09 img09'
+            'img05 img08'
+            ;
+            gap: 10px;
+        }
+        .img01{
+            grid-area: img01;
+        }
+        .img02{
+            grid-area: img02;
+        }
+        .img03{
+            grid-area: img03;
+        }
+        .img04{
+            grid-area: img04;
+        }
+        .img05{
+            grid-area: img05;
+        }
+        .img06{
+            grid-area: img06;
+        }
+        .img07{
+            grid-area: img07;
+        }
+        .img08{
+            grid-area: img08;
+        }
+        .img09{
+            grid-area: img09;
+        }
+    }
+}
+@media (min-width: 992px) {
+    
+    /* Inicio */
+    .card-img-top {
+        height: 300px;
+    }
+
+    /* Menú */
+    .hero-menu{
+        height: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 50px;
+    }
+
+    .btn{
+        padding: 10px 25px;
+    }
+
+    /*Inicio*/
+    .card-img-top {
+        height: 240px;
+    }
+    .bienvenida{
+        .bienvenida__info{
+            font-size: 20px;
+        }
+    }
+
+    /*Nosotros*/
+    .nosotros{
+        &__info{
+            font-size: 20px;
+        }
+    }
+
+    /*Galeria*/
+    .galeria{
+        &__imagenes{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: 260px;
+            grid-template-areas: 
+            'img01 img02 img03'
+            'img04 img04 img05'
+            'img06 img07 img05'
+            'img08 img09 img09'
+            ;
+            gap: 15px;
+        }
+        .caja{
+            transition: transform 0.5s ease;
+        }
+        .caja:hover {
+            transform: scale(1.02);
+        }
+    }
+}

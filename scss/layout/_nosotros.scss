@@ -1,0 +1,40 @@
+
+/* ----- NOSOTROS ----- */
+.nosotros{
+    &__img{
+        max-width: 100%;
+    }
+    &__info{
+        color: #ffffffc2;
+    }
+}
+
+.preguntas{
+    &__img{
+        max-width: 70%;
+    }
+    .accordion-item{
+        border-color: #03afa3a2;
+    }
+    .accordion-button{
+        background-color: #2b3036;
+        color: #61ffefc8;
+        &:not(.collapsed){
+            color: #61ffefc8;
+        }
+        &::after{
+            background-color: #d2d0cac8;
+            border-radius: 2px;
+        }
+    }
+    .accordion-body{
+        background-color: #2b3036;
+        p{
+            color: #c6c6c6;
+        }
+        ul{
+            color: #c6c6c6;
+        }
+        
+    }
+}
